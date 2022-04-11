@@ -1,6 +1,7 @@
 import React from "react"
 import data from '../data.json'
 import GroceryItem from "./GroceryItem";
+import CartButton from "./CartButton";
 
 
 const GroceryDetails = ()=>{
@@ -33,6 +34,7 @@ console.log(data);
                 {datas.price}
                 <br/> {datas.sellingPrice} ,{datas.discount}
                 {/* <GroceryItem source={datas.soImg}/> */}
+                <CartButton/>
                 </div> 
                 
 
